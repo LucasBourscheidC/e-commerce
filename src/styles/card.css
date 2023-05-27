@@ -1,0 +1,38 @@
+.card{
+    margin: 0 0.5vw;
+    max-width: 15%;
+    border-radius: 0.2vw;
+    margin: 1vw 1vw;
+}
+hr{
+    margin: 0.1rem 0;
+}
+.container-flex-card{
+    background-color: white;
+    height: 80%;
+    width: 100%;
+    padding: 0.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.add-to-cart{
+    visibility: hidden;
+    width: 100%;
+    margin: 0px;
+    background-color:#3da10b;
+	border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 1vw;
+	font-weight:bold;
+	padding: 1rem 0rem;
+}
+.card:hover .add-to-cart{
+    visibility: visible;
+    padding: 1rem 0rem;
+}

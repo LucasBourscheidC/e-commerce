@@ -1,0 +1,55 @@
+import Product from "./products";
+
+export const kboards = [
+    new Product(6,
+      "Teclado Gamer ProX",
+      "Teclado gamer mecânico com switches de alto desempenho.",
+      349.99,
+      "/images/mouses/anthony-choren-e7dG26YCrZU-unsplash.jpg",
+      "keyboard",
+      "XGaming",
+      "Teclado mecânico com switches Cherry MX, iluminação RGB personalizável, teclas programáveis.",
+      24
+    ),
+    new Product(7,
+      "Teclado Multimídia Compacto",
+      "Teclado compacto com teclas multimídia e layout ergonômico.",
+      79.99,
+      "/images/mouses/anthony-choren-e7dG26YCrZU-unsplash.jpg",
+      "keyboard",
+      "TechLite",
+      "Teclado compacto com teclas de atalho multimídia, conexão USB, layout ABNT2.",
+      45
+    ),
+    new Product(8,
+      "Teclado Sem Fio Slim",
+      "Teclado sem fio slim com design elegante e teclas macias.",
+      129.99,
+      "/images/mouses/anthony-choren-e7dG26YCrZU-unsplash.jpg",
+      "keyboard",
+      "WirelessTech",
+      "Teclado sem fio de 2.4 GHz, alcance de até 10 metros, compatível com Windows e macOS.",
+      63
+    ),
+    new Product(9,
+      "Teclado Gamer TurboX",
+      "Teclado gamer com iluminação RGB e teclas de resposta rápida.",
+      199.99,
+      "/images/mouses/anthony-choren-e7dG26YCrZU-unsplash.jpg",
+      "keyboard",
+      "TurboGaming",
+      "Teclado membrana com teclas de resposta rápida, iluminação RGB com efeitos personalizáveis, layout ABNT2.",
+      74
+    ),
+    new Product(10,
+      "Teclado Ergonômico ProComfort",
+      "Teclado ergonômico com apoio de pulso e teclas silenciosas.",
+      149.99,
+      "/images/mouses/anthony-choren-e7dG26YCrZU-unsplash.jpg",
+      "keyboard",
+      "ErgoTech",
+      "Teclado ergonômico com layout ABNT2, apoio de pulso removível, teclas silenciosas e macias.",
+      93
+    ),
+  ];
+  

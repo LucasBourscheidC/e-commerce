@@ -1,0 +1,19 @@
+.container-peripherals-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-peripherals{
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.container-link{
+    display: flex;
+    flex-direction: row;
+}
+.inner-container-peripherals{
+    display: flex;
+    flex-wrap: wrap;
+}
