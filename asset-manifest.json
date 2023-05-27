@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/e-commerce/static/css/main.455271a2.css",
-    "main.js": "/e-commerce/static/js/main.2941cbf6.js",
+    "main.js": "/e-commerce/static/js/main.aae45674.js",
     "index.html": "/e-commerce/index.html",
     "main.455271a2.css.map": "/e-commerce/static/css/main.455271a2.css.map",
-    "main.2941cbf6.js.map": "/e-commerce/static/js/main.2941cbf6.js.map"
+    "main.aae45674.js.map": "/e-commerce/static/js/main.aae45674.js.map"
   },
   "entrypoints": [
     "static/css/main.455271a2.css",
-    "static/js/main.2941cbf6.js"
+    "static/js/main.aae45674.js"
   ]
 }
