@@ -16,7 +16,7 @@ export default function Header(){
                     <li>
                     <Link to="/cart" >
                         <div>
-                            <img className='shopping-cart-img' src='./e-commerce/images/shopping-cart.png' alt='cart-img' />
+                            <img className='shopping-cart-img' src='/e-commerce/images/shopping-cart.png' alt='cart-img' />
                             <span>{cartProducts.length}</span>
                         </div>
                     </Link>
