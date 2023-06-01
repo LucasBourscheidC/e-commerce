@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import CartProductsProvider from './components/CartProductsContext';
 import Cart from './components/Cart';
 import Search from './components/Search';
+import ProductDetails from './components/ProductDetails';
 
 function App() {
   return <>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/hardware" element={<Hardware/>}/>
         <Route path="/cart" element={<Cart />}/>
         <Route path="/search/:query" element={<Search />}/>
+        <Route path="/product/:id" element={<ProductDetails />}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
