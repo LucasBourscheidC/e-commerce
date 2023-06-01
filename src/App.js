@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import CartProductsProvider from './components/CartProductsContext';
 import Cart from './components/Cart';
+import Search from './components/Search';
 
 function App() {
   return <>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/peripherals" element={<Peripherals/>}/>
         <Route path="/hardware" element={<Hardware/>}/>
         <Route path="/cart" element={<Cart />}/>
+        <Route path="/search/:query" element={<Search />}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
